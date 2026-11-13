@@ -2,3 +2,9 @@ data/hospedes.csv
 .DS_Store
 data/.DS_Store
 .vscode/
+
+# Dado original com informação pessoal: nunca versionar
+data/*.csv
+!data/hospedes_anonimizado.csv
+**/.DS_Store
+.ipynb_checkpoints/
